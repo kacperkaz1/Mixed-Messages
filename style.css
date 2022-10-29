@@ -1,0 +1,48 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.head{
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background: burlywood;
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+    letter-spacing: 5px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.main{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+}
+.main button{
+    width: 5rem;
+    height: 3rem;
+    color: black;
+    border-radius: 10%;
+    background: whitesmoke;
+    cursor: pointer;
+    transition: 3s;
+}
+.main button:hover{
+    background: crimson;
+    border-radius: 50%;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background: burlywood;
+    color: black;
+    font-weight: bold;
+}
