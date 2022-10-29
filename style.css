@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    color: orange;
+    width: 100vw;
+    height: 20vh;
+}
+.main{
+    color: brown;
+    width: 100vw;
+    height: 60vh;
+}
+.foot{
+    color: orange;
+    width: 100vw;
+    height: 20vh;
+}
