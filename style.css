@@ -6,20 +6,32 @@
     display: flex;
     height: 5rem;
     width: 100%;
-    background: burlywood;
+    background: rgb(12, 12, 12);
     font-size: 20px;
     color: rgb(29, 29, 29);
     letter-spacing: 5px;
-    justify-content: center;
+    justify-content:  flex-start;
     align-items: center;
     position: sticky;
     top: 0;
+    padding: 0 20px;
+}
+.icon{
+    width: 25px;
+}
+.flexbox{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.head h1{
+    padding-left: 300px;
 }
 .main{
     display: flex;
     height: 800px;
     width: 100%;
-    background: gray;
+    background: rgb(12, 12, 12);
     justify-content: center;
     align-items: center;
 }
@@ -42,7 +54,7 @@
     align-items: center;
     height: 5rem;
     width: 100%;
-    background: burlywood;
+    background: rgb(243, 166, 64);
     color: black;
     font-weight: bold;
 }
