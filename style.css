@@ -1,20 +1,60 @@
 *{
+    font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
 }
-
 .head{
-    color: orange;
-    width: 100vw;
-    height: 20vh;
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    background: rgb(12, 12, 12);
+    font-size: 20px;
+    color: rgb(29, 29, 29);
+    letter-spacing: 5px;
+    justify-content:  flex-start;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0 20px;
+}
+.icon{
+    width: 25px;
+}
+.flexbox{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.head h1{
+    padding-left: 300px;
 }
 .main{
-    color: brown;
-    width: 100vw;
-    height: 60vh;
+    display: flex;
+    height: 800px;
+    width: 100%;
+    background: rgb(12, 12, 12);
+    justify-content: center;
+    align-items: flex-start;
+}
+.main button{
+    width: 5rem;
+    height: 3rem;
+    color: black;
+    border-radius: 10%;
+    background: whitesmoke;
+    cursor: pointer;
+    transition: 3s;
+}
+.main button:hover{
+    background: crimson;
+    border-radius: 50%;
 }
 .foot{
-    color: orange;
-    width: 100vw;
-    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background: rgb(243, 166, 64);
+    color: black;
+    font-weight: bold;
 }
