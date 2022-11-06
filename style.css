@@ -41,6 +41,10 @@
 .main .content{
     text-align: center;
     width: 500px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
 }
 .main button{
     width: 5rem;
