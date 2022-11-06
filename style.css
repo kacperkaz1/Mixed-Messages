@@ -33,7 +33,7 @@
     width: 100%;
     background: rgb(12, 12, 12);
     justify-content: center;
-    align-items: flex-start;
+    align-items: space-around;
 }
 .main button{
     width: 5rem;
