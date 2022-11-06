@@ -9,15 +9,10 @@ const btn = document.getElementById("snickers");
 
 btn.addEventListener("click", GeneratingMessage, false);
 
-// function randomNoRepeats(array) {
-//       var copy = array.slice(0);
-//       if (copy.length < 1) { copy = array.slice(0); }
-//       var index = Math.floor(Math.random() * copy.length);
-//       var item = copy[index];
-//       copy.splice(index, 1);
-//       return item;
-//     }
-
+function randomNoRepeats(array) {
+    var copy = array.slice(0);
+    return dontRepeat(copy);
+  }
 
 function dontRepeat(copy){
     if (copy.length < 1) { copy = array.slice(0); }
@@ -27,13 +22,27 @@ function dontRepeat(copy){
     return item;
   };
 
-  function randomNoRepeats(array) {
-    var copy = array.slice(0);
-    return dontRepeat(copy);
-  }
 
   function GeneratingMessage(){
     const message = randomNoRepeats(randomMessages);
     document.getElementsByClassName("content")[0].innerText = randomNoRepeats(randomMessages);
 }
 
+
+
+
+
+// const repeated = [];
+// function DoNotRepeat(randomMessages){
+//     for(let i = 0; i < arr.length; i++){
+//         if(arr[i] == generateRand){
+//             repeated.push(arr[i]);
+//         }
+//         if(repeated.length == randomMessages.length){
+//             repeated.slice(0, 0);
+//         }   
+//     }
+//     return repeated;
+// }
+
+// console.log(repeated);

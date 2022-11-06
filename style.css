@@ -1,6 +1,7 @@
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    box-sizing: border-box;
 }
 .head{
     display: flex;
@@ -32,8 +33,14 @@
     height: 800px;
     width: 100%;
     background: rgb(12, 12, 12);
-    justify-content: center;
-    align-items: space-around;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.main .content{
+    text-align: center;
+    width: 500px;
 }
 .main button{
     width: 5rem;
@@ -42,11 +49,13 @@
     border-radius: 10%;
     background: whitesmoke;
     cursor: pointer;
-    transition: 3s;
+    transition: 2s;
+    text-transform: uppercase;
+    margin-bottom: 30vh;
 }
 .main button:hover{
     background: crimson;
-    border-radius: 50%;
+    border-radius: 20%;
 }
 .foot{
     display: flex;
